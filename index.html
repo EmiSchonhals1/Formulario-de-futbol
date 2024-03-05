@@ -1,0 +1,109 @@
+<html>
+  <h1>Formulario de fútbol</h1>
+<form action="http://18.230.139.220/" target="_blank">
+  <fieldset class="seccion">
+    <legend>Club</legend>
+    <p>
+      <label>
+        Seleccione su club:
+        <select name="club" id="club" required>
+        <option value="">Club</option>
+        <option value="boca">Boca Juniors</option>
+        <option value="river">River Plate</option>
+        <option value="san-lorenzo">San Lorenzo</option>
+        <option value="racing">Racing</option>
+        <option value="independiente">Independiente</option>
+        <option value="estudiantes">Estudiantes</option>
+        <option value="talleres">Talleres</option>
+        <option value="lanus">Lanús</option>
+        <option value="huracan">Huracán</option>
+        <option value="defensa">Defensa y Justicia</option>
+        <option value="newells">Newells</option>
+        <option value="central">Rosario Central</option>
+        </select>
+      </label>
+    </p>
+  </fieldset>
+
+  <fieldset class="seccion">
+    <legend>Posición</legend>
+    <p>
+        Seleccione su posición:
+        <label>
+            <input type="radio" name="posicion" value="arquero">
+            Arquero
+        </label>
+        <label>
+            <input type="radio" name="posicion" value="defensor">
+            Defensor
+        </label>
+        <label>
+            <input type="radio" name="posicion" value="mediocampista">
+            Mediocampista
+        </label>
+        <label>
+            <input type="radio" name="posicion" value="delantero">
+            Delantero
+        </label>
+    </p>
+</fieldset>
+
+  <fieldset class="seccion">
+    <legend>Dorsal</legend>
+  <p>
+    Ingrese su dorsal:
+    <label>
+      <input type="number" name="dorsal" id="dorsal" min="1" max="99" required>
+    </label>
+  </p>
+  </fieldset>
+
+  <fieldset class="seccion">
+    <legend>Jugador favorito</legend>
+    <p>
+      Ingrese su jugador favorito:
+      <label>
+        <input type="text" name="jugador" id="jugador" placeholder="Messi" required>
+      </label>
+    </p>
+  </fieldset>
+
+  <fieldset class="seccion">
+    <legend>Status</legend>
+    <p>
+      Seleccione su status en el club:
+      <label>
+        <input type="checkbox">Hincha promedio
+        <input type="checkbox">Socio
+        <input type="checkbox">Vitalicio
+      </label>
+    </p>
+  </fieldset>
+
+  <fieldset class="seccion">
+    <legend>Email</legend>
+    <p>
+      Ingrese su email:
+      <label>
+        <input type="email" name="email" id="email" placeholder="correo@gmail.com" required>
+      </label>
+    </p>
+  </fieldset>
+
+  <fieldset class="seccion">
+    <legend>Documento</legend>
+    <p>
+      Seleccione el documento que desea enviar:
+      <label>
+        <input type="file" name="documento" id="documento" required>
+      </label>
+    </p>
+  </fieldset>
+
+<div class="botones">
+  <input type="reset" value="Resetear">
+  <input type="submit" value="Enviar">
+</div>
+  
+</form>
+</html>

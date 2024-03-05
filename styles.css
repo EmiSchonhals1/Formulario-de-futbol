@@ -1,0 +1,40 @@
+body{
+    background-color: bisque;
+  }
+  
+  fieldset{
+    background-color: rgb(255, 250, 253);
+    text-align: center;
+    padding: 10px;
+    margin: auto 20%;
+  }
+  
+  legend{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
+  h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: bisque;
+    text-align: center;
+    padding: 3px;
+    border: 2px solid bisque;
+    background-color: black;
+  }
+  
+  p{
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .botones{
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .seccion{
+    margin: 20px 200px;
+  }
+  
